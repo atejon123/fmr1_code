@@ -3,4 +3,4 @@
 
 source $HOME/.bashrc
 cd /exports/eddie/scratch/ajonausk/fmr1_code
-$HOME/.local/bin/uv run script.py
+$HOME/.local/bin/uv run visualise_axons.py
