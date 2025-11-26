@@ -1,0 +1,15 @@
+[project]
+name = "fmr1-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "brainrender>=2.1.17",
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "spikeinterface",
+]
+
+[tool.uv.sources]
+spikeinterface = { git = "https://github.com/SpikeInterface/spikeinterface.git" }
