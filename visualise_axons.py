@@ -17,10 +17,10 @@ settings.SHOW_AXES = False
 
 scene = Scene(title="", atlas_name='allen_mouse_25um', check_latest=False)
 
-coords_file = pd.read_csv("inputs/167_mch_compiled_shifted_cells.csv")
+coords_file = pd.read_csv("/Users/atenejonauskyte/EC_project_Image_analysis/166_mch_compiled_shifted_cells.csv")
 
 coords = coords_file.to_numpy()
 
 scene.add(Points(coords, radius = 20, colors="black", alpha=1))
 
-scene.export("outputs/interactive_167_mch.html")
+scene.export("interactive_167_mch.html")
