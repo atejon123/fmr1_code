@@ -23,4 +23,6 @@ coords = coords_file.to_numpy()
 
 scene.add(Points(coords, radius = 20, colors="black", alpha=1))
 
-scene.export("interactive_167_mch.html")
+scene.screenshot(name = "/exports/eddie/scratch/ajonausk/fmr1_code/test.png")
+
+#scene.export("interactive_167_mch.html")
